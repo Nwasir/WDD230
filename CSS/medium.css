@@ -1,0 +1,22 @@
+
+/* @media only screen and (min-width: 32.5em){
+    #content{
+        background-color:black;
+        color: white;
+    }
+   
+}*/
+@media (max-width: 32.5em){
+    header{
+        display: contents; 
+           
+    }
+    h1, h2{
+        margin-left: 5px;
+        color: black;
+        margin: 0 auto;
+    }
+    img{
+        margin-left: 80px;
+    }
+}
