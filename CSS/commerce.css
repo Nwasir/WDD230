@@ -1,0 +1,40 @@
+header{
+    background-color: #532f07;
+    color: #FFFFFF;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    background-color: #532f07;
+    color: #FFFFFF;
+}
+nav ul li a{
+    color: #FFFFFF;
+}
+h1, h2, h3, h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.primary{
+    background-color: #537769;
+}
+.secondary{
+    background-color: #fcebed;
+}
+.accent2{
+    background-color: #532f07;
+}
+footer {
+    background-color: #532f07;
+    color: white;
+    display: flex;    
+  }
+  footer p{
+      margin: 0 auto;
+  }
+ #container{
+      margin: 0 auto;
+  max-width: 960px;
+ }
+ body{
+     background-color: #fcebed;
+ }
