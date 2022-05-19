@@ -1,0 +1,75 @@
+@media only screen and (min-width: 57em){
+    nav button{display: none;}
+
+    header .head {
+        display:grid;
+        grid-template-columns: .1fr .6fr 1fr .07fr .08fr;
+    }    
+    .logo {
+        margin: 1em;
+        margin-bottom: 0;
+    }
+    .social {
+        margin-top: 25px;
+        padding: 0;
+        order: 1;
+    }
+    h1 {
+        margin-top: 15px;
+       font-size: x-large;
+    }
+    nav ul#primaryNav {
+		display: flex;
+	}
+	/*#primaryNav li {
+		display: block; /* change state in small view */
+	/*	flex: 1 1 auto;
+	}*/
+	#primaryNav a {
+		text-align: center;
+	}
+	#primaryNav li:first-child {
+		display: none;
+	}
+    main {
+        grid-template-columns: 1fr 2.5fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .event {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .hero{
+        grid-column: 2;
+        grid-row: 1 / span 2;
+    }
+    .weather {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .join {
+        grid-row: 3;
+        grid-column: 1;
+    }
+    .news {
+        grid-row: 3;
+        grid-column: 2;
+    }
+    .spotlights {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-row: 1/ span 3;
+        grid-column: 3;
+
+    }
+    .spotLight2 {
+        grid-row: 2;
+    }
+
+    .spotLight3 {
+        display: block;
+        grid-row: 3;
+    }
+
+
+    }

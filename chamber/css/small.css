@@ -1,0 +1,98 @@
+header {
+  padding: 10px;
+  margin: 0;
+  background-color: #532f07;
+  color: white;
+  display: grid;
+  text-align: center;
+}
+
+.head {
+  display: flex;
+  justify-content: space-around;
+}
+footer {
+  text-align: center;
+  background-color: #532f07;
+  color: white;
+}
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #b8c7c1;
+  border-top: #21332c;
+  justify-content: flex-end;
+}
+nav ul li a:hover {
+  background-color: #613809;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+nav button {
+  margin: 0.2rem 1vw;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #537769;
+}
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+
+.social {
+  padding: 10px;
+  margin-top: 4px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+ 
+  }
+header #currentDate {
+  margin: 0.5em;
+  padding: 0.3em;
+  background-color: #537769;
+  border-radius: 0.25em;
+  
+}
+
+main div {
+  margin: 1em;
+  margin-left: 2px;
+  background-color: #537769;
+  border-radius: 0.3em;
+  padding-bottom: 7em;
+}
+.spotlights {
+  display: grid;
+  padding-bottom: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+   
+}
+.spotLight1,.spotLight2, .spotLight{
+  border-style: solid;
+  border-radius: .3em;
+  padding: 5px;
+  margin: 5px;
+  padding-bottom: 7em;
+ 
+}
+.spotLight3{display: none;}
+.join{
+  text-align:center;
+}
+
+
+

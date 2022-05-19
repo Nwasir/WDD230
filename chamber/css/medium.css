@@ -1,0 +1,66 @@
+@media only screen and (min-width: 28em) {
+	main {
+        display: grid;
+        grid-template-columns: 1fr .5fr;
+    }
+    header .head {
+        display:flex;
+        justify-content: space-around;
+    }  
+    .hero {
+        grid-column: 1 / span 2;
+    }
+    .news {
+        grid-row: 2;
+        grid-column: 1 / span 2;
+    }
+    
+    .spotlights {
+        grid-row: 3;
+        grid-column: 1 / span 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .spotLight1, .spotLight2 {
+        grid-row: 1;
+    }
+    
+    .join {
+        display: flex;
+        grid-column: 1 / span 2;
+        grid-row: 4;
+    }
+
+    /*footer {
+        grid-template-columns: 1fr 1.5fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .bottomLogo {
+        grid-row: 1 / span 3;
+        grid-column: 1;
+        display: block;
+    }
+    .name {
+        text-align: left;
+        font-size: 1.5em;
+    }
+    .address {
+        grid-row: 2;
+        text-align: left;
+    }*/
+    .phoneNo {
+        grid-column: 3;
+    }   
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+    /*.update {
+        grid-column: 1 / span 3;
+    }*/
+    footer .last{
+        display: flex;
+        justify-content: space-around;
+    }
+}

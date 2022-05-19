@@ -1,0 +1,15 @@
+@media (min-width: 35rem) {
+  nav button {
+    display: none;
+  }
+  nav ul#primaryNav{
+      display: flex;
+      border-left: 1px solid rgba(0, 0, 0, 0.3);
+      margin: 2vw;
+  }
+  nav ul li a{
+      border: none;
+      border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+}

@@ -1,0 +1,5 @@
+@media (min-width: 64rem){
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
+}
