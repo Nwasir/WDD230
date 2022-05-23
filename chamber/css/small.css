@@ -72,7 +72,7 @@ main div {
   margin-left: 2px;
   background-color: #537769;
   border-radius: 0.3em;
-  padding-bottom: 7em;
+  padding-bottom: 1em;
 }
 .spotlights {
   display: grid;
@@ -81,18 +81,21 @@ main div {
   grid-template-rows: 1fr 1fr;
    
 }
-.spotLight1,.spotLight2, .spotLight{
+.spotLight1,.spotLight2, .spotLight3{
   border-style: solid;
   border-radius: .3em;
-  padding: 5px;
+  padding: 1px;
   margin: 5px;
-  padding-bottom: 7em;
+  padding-bottom: 1em;
  
 }
 .spotLight3{display: none;}
+
 .join{
   text-align:center;
 }
+.join p{text-align: left;}
+.event{text-align: center;}
 
 
 

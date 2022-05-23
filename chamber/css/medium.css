@@ -1,66 +1,83 @@
 @media only screen and (min-width: 28em) {
-	main {
-        display: grid;
-        grid-template-columns: 1fr .5fr;
-    }
-    header .head {
-        display:flex;
-        justify-content: space-around;
-    }  
-    .hero {
-        grid-column: 1 / span 2;
-    }
-    .news {
-        grid-row: 2;
-        grid-column: 1 / span 2;
-    }
-    
-    .spotlights {
-        grid-row: 3;
-        grid-column: 1 / span 2;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-    }
-    .spotLight1, .spotLight2 {
-        grid-row: 1;
-    }
-    
-    .join {
-        display: flex;
-        grid-column: 1 / span 2;
-        grid-row: 4;
-    }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+  }
+  header .head {
+    display: flex;
+    justify-content: space-around;
+  }
+ 
+  .news {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+  }
 
-    /*footer {
-        grid-template-columns: 1fr 1.5fr 1fr;
-        grid-template-rows: 1fr;
-    }
-    .bottomLogo {
-        grid-row: 1 / span 3;
-        grid-column: 1;
-        display: block;
-    }
-    .name {
-        text-align: left;
-        font-size: 1.5em;
-    }
-    .address {
-        grid-row: 2;
-        text-align: left;
-    }*/
-    .phoneNo {
-        grid-column: 3;
-    }   
-    .info {
-        display: flex;
-        flex-direction: column;
-    }
-    /*.update {
+  .spotlights {
+    grid-row: 3;
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .spotLight1,
+  .spotLight2 {
+    grid-row: 1;
+  }
+
+  .join {
+    display: flex;
+    grid-column: 1 / span 2;
+    grid-row: 4;
+    display: block;
+  }
+
+  .phoneNo {
+    grid-column: 3;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  /*.update {
         grid-column: 1 / span 3;
     }*/
-    footer .last{
-        display: flex;
-        justify-content: space-around;
-    }
+  footer .last {
+    display: flex;
+    justify-content: space-around;
+  }
+  .hero {
+    
+	position: relative;
+    grid-column: 1 / span 2;
+    grid-row: 1/ span 3;
+  }
+  main .hero #first img {
+    position: absolute;
+	top: 40px;
+	left: 50px;
+	
+  }
+  main .hero #market img {
+    position: absolute;
+	top: 40px;
+	right: 50px;
+  }	
+  .hero h3{
+    border: 2px solid #000;
+	padding: 1.5rem;
+	border-radius: 10px;
+    text-align: center;
+    margin-top: 300px;
+    background-color: #532f07;
+    color: aliceblue;
+   
+  }
+	
+  /*.hero #market {
+      margin: 0 2vw;
+    display: flex;
+    grid-gap: 20px;
+}*/
+
 }
