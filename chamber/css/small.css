@@ -1,3 +1,4 @@
+/*---header----*/
 header {
   padding: 10px;
   margin: 0;
@@ -5,17 +6,26 @@ header {
   color: white;
   display: grid;
   text-align: center;
+  border-radius: 5px;
+}
+h1 {
+  margin: 0;
+  font-size: 1em;
 }
 
 .head {
   display: flex;
   justify-content: space-around;
 }
-footer {
-  text-align: center;
-  background-color: #532f07;
-  color: white;
-}
+.social {
+  padding: 10px;
+  margin-top: 4px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+ 
+  }
+
 nav ul li a {
   display: block;
   padding: 0.8rem 2vw;
@@ -45,20 +55,9 @@ nav ul {
 nav ul.open {
   display: block;
 }
+/*nav ul li{
+  float: left;}*/
 
-h1 {
-  font-size: 1em;
-}
-
-
-.social {
-  padding: 10px;
-  margin-top: 4px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
- 
-  }
 header #currentDate {
   margin: 0.5em;
   padding: 0.3em;
@@ -66,6 +65,23 @@ header #currentDate {
   border-radius: 0.25em;
   
 }
+/*---main---*/
+main{margin: 0;}
+main .hero{
+  width: 95%;
+      
+}
+main .hero #market img{
+  width: 140%;
+  margin-left: -20%;
+  
+ }
+
+main .hero h3{
+  text-align: center;
+  background-color: #613809;
+}
+ 
 
 main div {
   margin: 1em;
@@ -73,6 +89,9 @@ main div {
   background-color: #537769;
   border-radius: 0.3em;
   padding-bottom: 1em;
+}
+main .news h3{
+  text-align: center;
 }
 .spotlights {
   display: grid;
@@ -89,13 +108,35 @@ main div {
   padding-bottom: 1em;
  
 }
+main .spotLight1 { text-align: center;}
+main .spotLight1 img{margin-top: 8px;}
 .spotLight3{display: none;}
 
-.join{
+.join h3{
   text-align:center;
 }
-.join p{text-align: left;}
-.event{text-align: center;}
+
+.event h3{text-align: center;}
+main .weather{
+  width: 95%;
+ text-align: center;
+  color: #f0f8f5;
+}
+main .weather img{
+  width: 100%;
+ 
+}
+
+/*---footer*----*/
+footer {
+  text-align: center;
+  background-color: #532f07;
+  color: white;
+ 
+}
+.bottomLogo img{
+  margin-top: 15px;
+}
 
 
 
