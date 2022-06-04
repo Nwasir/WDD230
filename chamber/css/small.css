@@ -47,7 +47,7 @@ nav button {
   background-color: transparent;
   border: none;
   font-size: 2rem;
-  color: #537769;
+  color: #86ccb1;
 }
 nav ul {
   display: none;
@@ -61,7 +61,7 @@ nav ul.open {
 header #currentDate {
   margin: 0.5em;
   padding: 0.3em;
-  background-color: #537769;
+  background-color: #86ccb1;
   border-radius: 0.25em;
   
 }
@@ -83,10 +83,10 @@ main .hero h3{
 }
  
 
-main div {
+main div{
   margin: 1em;
   margin-left: 2px;
-  background-color: #537769;
+  background-color: #86ccb1;
   border-radius: 0.3em;
   padding-bottom: 1em;
 }
@@ -112,7 +112,7 @@ main .spotLight1 { text-align: center;}
 main .spotLight1 img{margin-top: 8px;}
 .spotLight3{display: none;}
 
-.join h3{
+.join h3, h3{
   text-align:center;
 }
 
@@ -137,6 +137,47 @@ footer {
 .bottomLogo img{
   margin-top: 15px;
 }
+/*----Discover page---*/
+section{
+  background-color: #86ccb1;
+ 
+}
+#background {   
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4px;
+ 
+}
+#background h1 {  
+   text-align: center;
+   
+  }
+  
+  section #background .pictures {
+    border: 2px #532f07 solid;
+    row-gap: 70px;
+  }
 
+ .pictures picture img {  
+ width: 100%;
+ filter: blur(0em);
+ transition: filter 0.5s;
+    
+}
+section .visit{
+  border:2px #532f07 solid;
+  max-width: 800px;
+  margin: 0 auto;
+}
+section .visit p{
+  margin-left: 50px;
+  font-size: larger;
+  font-weight: 1000;
+}
+section h1{
+  text-align: center;
+  font-size: xx-large;
+  margin: 15px 0px 15px 0px;
+}
 
 
