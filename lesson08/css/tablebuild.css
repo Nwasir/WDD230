@@ -1,10 +1,10 @@
 table{
     border-collapse: collapse;
-    border: 2px solid black;
+    border: 2px solid white;
     background-color: rgb(195, 206, 216);
 }
 td{
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 10px 20px;
 }
 th, .nov{background-color: #0e3030;

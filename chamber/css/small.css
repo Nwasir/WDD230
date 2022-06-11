@@ -1,3 +1,9 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 /*---header----*/
 header {
   padding: 10px;
@@ -178,6 +184,60 @@ section h1{
   text-align: center;
   font-size: xx-large;
   margin: 15px 0px 15px 0px;
+}
+
+/*----------FORM---------*/
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid#445ba9;
+  border-radius: 10px;
+  
+}
+form legend{
+  color: #445ba9;
+  margin: 0 1rem;
+  padding: 0.5rem;
+}
+form label.top, form span{
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: .8rem;
+}
+form label.top input{
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: .70rem;
+  color: #555;  
+  width: 90%;
+  
+}
+form label.top input:focus, textarea:focus{background-color: #eff1f8 ;}
+
+form label.sbs {
+  display: block;
+  padding: .75rem;
+  color: #555;
+}
+form input.submitBtn {
+  border: none;
+  background-color: #9c2c13;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 90%;
+  
+}
+form label.top input:required{
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: green solid 6px ;
 }
 
 
