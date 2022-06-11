@@ -22,3 +22,7 @@ tr:nth-child(odd) {
 background-color: rgb(87, 163, 163);
 
   }
+  tfoot tr td{
+    text-align: center;
+    font-size: 15px;
+  }
