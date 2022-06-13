@@ -1,9 +1,9 @@
 
 const input = document.querySelector("input");
-const button = document.querySelector("button");
-const list = document.querySelector("ul");
+const button = document.querySelector("#bt");
+const list = document.querySelector(".list");
 
-button.addEventListener("click", function() {
+button.addEventListener("click", () => {
   const myitem = input.value;
   input.value = "";
 
@@ -17,13 +17,13 @@ button.addEventListener("click", function() {
   listBtn.textContent = "❌";
   list.appendChild(listItem);
 
-  listBtn.addEventListener(
-    ("click",
-    function () {
+  listBtn.addEventListener("click", () => {
       list.removeChild(listItem);
-    })
-  );
+    });
   input.focus();
 });
+
+document.querySelector('#datemod').textContent = document.lastModified;
+document.querySelector('#year').textContent = new Date().getFullYear(); 
 
 
