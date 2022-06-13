@@ -187,6 +187,9 @@ section h1{
 }
 
 /*----------FORM---------*/
+#jform{
+  grid-column: 1/10;
+}
 
 form fieldset {
   margin: 2rem 0;
@@ -198,6 +201,7 @@ form legend{
   color: #445ba9;
   margin: 0 1rem;
   padding: 0.5rem;
+  
 }
 form label.top, form span{
   display: block;
