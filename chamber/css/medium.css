@@ -5,6 +5,7 @@
   }
  
   main {
+   
     margin: 2vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -66,9 +67,8 @@
     justify-content: space-around;
   }
 
-  /*.hero #market {
-      margin: 0 2vw;
-    display: flex;
-    grid-gap: 20px;
-}*/
+  /*-----------form--------------*/
+  #jform {
+    height: 170vh;
+  }
 }

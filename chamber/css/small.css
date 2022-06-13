@@ -231,6 +231,7 @@ form input.submitBtn {
   margin: 0 0 2rem 2%;
   width: 90%;
   
+  
 }
 form label.top input:required{
   border-left: red solid 6px;
