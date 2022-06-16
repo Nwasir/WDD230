@@ -1,7 +1,11 @@
 
 main .cards {
-    border-collapse: collapse;    
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));  
      margin: 2vw;
+   
+    grid-row-gap: 20px;
+    
 }
 
 main .cards section{
@@ -13,23 +17,14 @@ main .cards section img{
     display: block;
     margin-left: auto;
     margin-right: auto; 
-    padding: 5px 10px;  
+    padding: 5px 10px; 
+    
 }
-
 h2, h1,
 p {
   text-align: center;
+  text-shadow: 0 0 15px #999;
 }
 
 
 
-@media only screen and (min-width: 57em){
-    main .cards { 
-        display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-row-gap: 17px ;
-    margin: 4vw;
-    
-    
-    }
-}
