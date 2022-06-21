@@ -3,8 +3,11 @@
 
     header .head {
         display:grid;
-        grid-template-columns: .1fr .6fr 1fr .07fr .08fr;
+        grid-template-columns: 1fr 1.5fr .3fr;
     }    
+    header .head div.one{
+        display:flex;
+    }
     .logo {
         margin: 1em;
         margin-bottom: 0;

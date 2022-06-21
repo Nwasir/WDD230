@@ -14,14 +14,18 @@ header {
   text-align: center;
   border-radius: 5px;
 }
-h1 {
+header .head div.one{
+  display:flex;
+}
+
+h3 {
   margin: 0;
-  font-size: 1em;
+  font-size: .85em;
 }
 
 .head {
   display: flex;
-  justify-content: space-around;
+  
 }
 .social {
   padding: 10px;
@@ -29,7 +33,7 @@ h1 {
   align-items: center;
   justify-content: center;
   display: flex;
- 
+  
   }
 
 nav ul li a {

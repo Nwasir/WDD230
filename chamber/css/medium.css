@@ -3,6 +3,9 @@
     display: flex;
     justify-content: space-around;
   }
+  header .head div.one{
+    display:flex;
+  }
  
   main {
    
