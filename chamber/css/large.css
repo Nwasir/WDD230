@@ -79,9 +79,12 @@
        display: block;
         grid-row: 3;
     }
-    /*----------FORM------------------*/
+    /*----------directory------------------*/
     
-     
+      .directory{
+        height: 270vh;
+       
+      }
 
 
     }

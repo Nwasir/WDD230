@@ -1,0 +1,68 @@
+const requestURL = 'json/data.json';
+const cards = document.querySelector('.card');
+
+async function displaydirectory() {
+  let response = await fetch(requestURL);
+  if (response.ok) {
+    let data = await response.json();
+    //console.log(data);
+   builddirectory(data);
+  } else {
+  throw Error(response.statusText);
+  }
+}
+
+function builddirectory(data) {  
+    data.directory.forEach(directory => {
+    let section = document.createElement('section');
+    let image = document.createElement('img');
+    let name = document.createElement('h3');
+    let address = document.createElement('p');
+    let phone = document.createElement('p');
+    let membership = document.createElement('p');
+    let a = document.createElement('a');
+    let link = document.createTextNode('visit site');
+
+    //fullname = `${prophet.name} ${prophet.lastname}`
+
+    image.setAttribute('src', directory.imageurl );
+    image.setAttribute('alt', `logo of ${directory.name}`);
+    image.setAttribute('loading', 'lazy');
+    name.innerHTML = directory.name;
+    address.innerHTML = directory.address;
+    phone.innerHTML = directory.phone;
+    membership.innerHTML = directory.membership;
+    a.append(link);
+    a.title = 'visit site';
+    a.href = directory.a;
+
+    section.append(image);
+    section.append(name);
+    section.append(address);
+    section.append(phone);
+    section.append(membership);
+    section.append(a);
+
+    cards.append(section);
+  })
+}
+displaydirectory();
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector(".card");
+
+// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
