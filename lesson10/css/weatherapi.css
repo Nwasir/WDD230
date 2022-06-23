@@ -1,0 +1,9 @@
+body{
+    background-color: aliceblue;
+    border: 1px solid;
+    max-width: 600px;
+    margin: 0 auto;
+}
+h2, p, figure, footer {
+    text-align: center;
+}
