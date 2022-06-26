@@ -5,7 +5,7 @@ const captionDesc = document.querySelector("figcaption");
 const windSpeed = document.querySelector("#speed");
 const windchill = document.querySelector("#windchill");
 
-const url = `https://api.openweathermap.org/data/2.5/weather?q=Aba,Ng&appid=2fcbd37c33ec6efc3dd5e05b4eef77e6`;
+const url = `https://api.openweathermap.org/data/2.5/weather?q=Aba,Ng&units=metric&appid=2fcbd37c33ec6efc3dd5e05b4eef77e6`;
 
 apiFetch(url);
 
@@ -33,4 +33,5 @@ function displayResults(weatherData) {
   //desc.innerHTML = 
 }
 
-windchill.innerHTML = 35.74 + 0.6215 * currentTemp - 35.75 * windSpeed ** 0.16 + 0.4275 * currentTemp * windSpeed ** 0.16;
+windchill.innerHTML = 35.74 + 0.6215 * currentTemp - 35.75 * 
+windSpeed ** 0.16 + 0.4275 * currentTemp * windSpeed ** 0.16;
