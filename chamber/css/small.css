@@ -77,6 +77,10 @@ header #currentDate {
 }
 /*---main---*/
 main{margin: 0;}
+main h3{ 
+  margin-top: 10px;
+  text-align: center;
+}
 main .hero{
   width: 95%;
       
@@ -90,8 +94,8 @@ main .hero #market img{
 main .hero h3{
   text-align: center;
   background-color: #613809;
-}
- 
+ font-size: larger;
+} 
 
 main div{
   margin: 1em;
@@ -100,9 +104,7 @@ main div{
   border-radius: 0.3em;
   padding-bottom: 1em;
 }
-main .news h3{
-  text-align: center;
-}
+
 .spotlights {
   display: grid;
   padding-bottom: 0;
@@ -122,19 +124,11 @@ main .spotLight1 { text-align: center;}
 main .spotLight1 img{margin-top: 8px;}
 .spotLight3{display: none;}
 
-.join h3, h3{
-  text-align:center;
-}
-
-.event h3{text-align: center;}
 main .weather{
   width: 95%;
  text-align: center;
   color: #f0f8f5;
-}
-main .weather img{
-  width: 100%;
- 
+  background-color: rgb(29, 21, 21);
 }
 
 /*---footer*----*/
@@ -144,6 +138,7 @@ footer {
   color: white;
  
 }
+footer div a{color: rgb(103, 103, 184);}
 .bottomLogo img{
   margin-top: 15px;
 }
@@ -257,7 +252,7 @@ main .menu article {
   display: grid;
 grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));  
   
-  grid-row-gap: 20px;
+  grid-gap: 20px;
   
 }
 
