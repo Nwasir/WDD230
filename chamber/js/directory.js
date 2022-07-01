@@ -34,7 +34,7 @@ function builddirectory(data) {
     membership.innerHTML = directory.membership;
     a.append(link);
     a.title = 'visit site';
-    a.href = directory.a;
+    a.href = directory.website;
 
     section.append(image);
     section.append(name);

@@ -122,14 +122,7 @@
       "membership": "Gold Membership",
       "website": "https://www.mtn.ng"
     },
-    {
-      "imageurl": "json/images/notore.png",
-      "name": "Notore Chemical Industries",
-      "address": "Port Harcourt",
-      "phone": "0701 278 9473",
-      "membership": "Bronze Membership",
-      "website": "https://www.notore.com"
-    },
+    
     {
       "imageurl": "json/images/vitafoam.jpeg",
       "name": "Vitafoam Nigeria PLC",
