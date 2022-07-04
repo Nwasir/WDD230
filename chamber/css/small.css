@@ -47,6 +47,10 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #613809;
 }
+nav ul li.active a {
+  background-color: #70461b;
+  color: white;
+}
 nav ul {
   list-style-type: none;
   padding: 0;
