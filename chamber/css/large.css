@@ -80,10 +80,12 @@
     grid-row: 3;
   }
   /*---footer-----*/
+ 
   footer .last{
     display: grid;
     grid-template-columns: 3fr  1fr;
     margin: 10vw;
+    height: 3vh;
   }
   div.logoside{
     display: flex;
