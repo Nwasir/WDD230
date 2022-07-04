@@ -5,8 +5,7 @@ async function displaydirectory() {
   let response = await fetch(requestURL);
   if (response.ok) {
     let data = await response.json();
-    //console.log(data);
-   builddirectory(data);
+    builddirectory(data);
   } else {
   throw Error(response.statusText);
   }
@@ -23,8 +22,7 @@ function builddirectory(data) {
     let a = document.createElement('a');
     let link = document.createTextNode('visit site');
 
-    //fullname = `${prophet.name} ${prophet.lastname}`
-
+    
     image.setAttribute('src', directory.imageurl );
     image.setAttribute('alt', `logo of ${directory.name}`);
     image.setAttribute('loading', 'lazy');

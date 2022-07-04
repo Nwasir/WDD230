@@ -66,13 +66,7 @@
   }
 
   /*-----------directory-------------------*/
-  /*.directory {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    height: 480vh;
-  }*/
+ 
   .directory {
     height: 270vh;
   }
