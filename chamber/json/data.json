@@ -5,7 +5,7 @@
       "name": "ABC Transport",
       "address": " 2, Ikot Ekpene Road, Aba,",
       "phone": "08142552422",
-      "membership": "Silver Membership",
+      "membership": "Silver",
       "website": "https://www.abctransport.com/"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Academy Press PLC",
       "address": " 28/32, Industrial Avenue, Lagos",
       "phone": "09030001367",
-      "membership": "Silver Membership",
+      "membership": "Silver",
       "website": "https://www.academypress-plc.com"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Aiico Insurance PLC",
       "address": " 4 Umuahia - Ikot Ekpene Rd ",
       "phone": "08055314351",
-      "membership": "Gold Membership",
+      "membership": "Gold",
       "website": "https://www.aiicoplc.com/"
     },
     {
@@ -29,7 +29,7 @@
       "name": "Capital Hotel PLC",
       "address": "1 ladi Kwali St, Wuse 904101, Abuja",
       "phone": "094612000",
-      "membership": "Bronze Membership",
+      "membership": "Bronze",
       "website": "https://www.capitalhotelsng.org/"
     },
     {
@@ -37,7 +37,7 @@
       "name": "Champion Brewery PLC",
       "address": "2W3C+Q3C, Industrial Layout, Aka Offot, Uyo",
       "phone": "08072290942",
-      "membership": "Bronze Membership",
+      "membership": "Bronze",
       "website": "https://www.championbreweries.com/"
     },
     {
@@ -45,7 +45,7 @@
       "name": "Chelaram PLC",
       "address": "10, 114 Apapa-Oshodi Express Way, Isolo 101241, Lagos",
       "phone": "08055099000",
-      "membership": "NP Membership",
+      "membership": "NP",
       "website": "https://www.chellaramsplc.com/"
     },
     {
@@ -53,7 +53,7 @@
       "name": "Conoil PLC",
       "address": "Aba-Owerri Rd, Aba 450102, Aba",
       "phone": " 08033001578",
-      "membership": "Bronze Membership",
+      "membership": "Bronze",
       "website": "https://www.conoilproducing.com"
     },
     
@@ -62,7 +62,7 @@
       "name": "Courteville Business Solutions PLC",
       "address": "38 Commercial Avenue, Sabo, Yaba, Lagos",
       "phone": " 08028994830",
-      "membership": "Silver Membership",
+      "membership": "Silver",
       "website": "https://courtevillegroup.com/"
     },
     {
@@ -70,7 +70,7 @@
       "name": "Custodian Investment PLC",
       "address": "16A, Commercial Avenue, Sabo, Yaba, Lagos",
       "phone": " +234)12774000-9",
-      "membership": "Silver Membership",
+      "membership": "Silver",
       "website": "https://custodianplc.com.ng/"
     },
     {
@@ -78,7 +78,7 @@
       "name": "Dangote Cement PLC",
       "address": "Lagos State",
       "phone": "+234-1-460-643",
-      "membership": "Gold Membership",
+      "membership": "Gold",
       "website": "https://www.dangotecement.com/"
     },
     {
@@ -86,7 +86,7 @@
       "name": "Dangote Sugar PLC",
       "address": "Lagos State",
       "phone": "+234-1-460-643",
-      "membership": "Gold Membership",
+      "membership": "Gold",
       "website": "https://dangotesugar.com.ng"
     },
     {
@@ -94,7 +94,7 @@
       "name": "FrieslandCampina WAMCO Nigeria PLC",
       "address": "Plot 7b Acme Road Ikeja",
       "phone": "01 271 5100",
-      "membership": "Bronze Membership",
+      "membership": "Bronze",
       "website": "https://www.frieslandcampina.com/ng/"
     },
       
@@ -103,7 +103,7 @@
       "name": "Japaul Gold and Ventures PLC",
       "address": "Plot 8 Dr Nurudeen Olowopopo Way, Ikeja",
       "phone": "0806 237 7018",
-      "membership": "NP Membership",
+      "membership": "NP",
       "website": "https://japaulgroup.com/"
     },
     {
@@ -111,7 +111,7 @@
       "name": "May and Baker PLC",
       "address": " 17 Industrial Road, Aba 450103, Aba",
       "phone": "0909 599 8003",
-      "membership": "Gold Membership",
+      "membership": "Gold",
       "website": "https://may-baker.com"
     },
     {
@@ -119,7 +119,7 @@
       "name": "MTN Nigeria Communications Plc",
       "address": "80 School Road By Asa Road, Aba",
       "phone": "0803 210 0216",
-      "membership": "Gold Membership",
+      "membership": "Gold",
       "website": "https://www.mtn.ng"
     },
     
@@ -128,7 +128,7 @@
       "name": "Vitafoam Nigeria PLC",
       "address": "140 Oba Akran Ave, Oba Akran 101233, Ikeja",
       "phone": "0817 458 9640",
-      "membership": "Bronze Membership",
+      "membership": "Bronze",
       "website": "https://www,vitafoamng.com"
     }
   ]

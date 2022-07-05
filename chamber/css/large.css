@@ -9,19 +9,23 @@
   }
 
   .social {
-    margin-top: 20px;
+   width: 40px;
+   height: 40px;
+   margin-top: 10px;
     padding: 0;
     order: 1;
+    display: flex;
   }
 
-  nav ul#primaryNav {
+  nav ul {
     display: flex;
   }
   
-  #primaryNav a {
+  nav ul li a {
     text-align: center;
+    border: none;
   }
-  #primaryNav li:first-child {
+  /*#primaryNav li:first-child {
     display: none;
   }
   /*------main-----*/
