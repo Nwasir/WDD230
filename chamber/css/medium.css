@@ -67,16 +67,10 @@
 
   /*-----------directory-------------------*/
  
-  .directory {
-    height: 270vh;
+  main.directory {
+    height: 600vh;
   }
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    align-items: center;
-    grid-gap: 20px;
-  }
-
+  
   main .menu article.card section {
     border: 2px solid black;
   }

@@ -93,8 +93,8 @@
   }
   /*----------directory------------------*/
 
-  .directory {
-    height: 270vh;
+  main.directory {
+    height: 550vh;
   }
   
   /*-------------contact us -------*/
