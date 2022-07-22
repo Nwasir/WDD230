@@ -1,0 +1,185 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*---header----*/
+header {
+  padding: 10px;
+  margin: 0;
+  background-color: #0d034e;
+  color: white;
+  display: grid;
+  text-align: center;
+}
+.head {
+  display: grid;
+  grid-template-columns: 3fr 1.5fr 1fr;
+}
+
+header .head div.one {
+  display: flex;
+}
+header .head div.one h3 {
+  font-size: 17px;
+}
+h3 {
+  margin: 0;
+  font-size: 0.85em;
+}
+
+nav button {
+  margin: 0.2rem 2vw;
+  border: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: #86ccb1;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+ 
+}
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #b8c7c1;
+  border-top: 1px solid #21332c;
+}
+nav ul li.active a {
+  background-color: #1c1166;
+  color: white;
+}
+nav ul li a:hover {
+  background-color: #1d06b1;
+}
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+
+.social a img {
+  width: 30px;
+  height: 30px;
+  margin-top: 4px;
+  display: inline;
+}
+
+body div img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ h2, h3, p {
+  text-align: center;
+}
+
+.box div.weather{
+  border: 2px solid black;
+  background-color: #420c08;
+  color: wheat;
+  text-align: center;
+}
+div.dbanner a{
+ background-color: #420c08;
+ color: whitesmoke;
+ border-radius: 5px;
+ 
+}
+
+footer {
+  text-align: center;
+  background-color: #0d034e;
+  color: white;
+}
+footer div a {
+  color:rgb(226, 170, 170);
+}
+/*------------Temple----------*/
+
+.card section img{
+  width: 100%;
+}
+
+.card section a {
+ display: block;
+ text-align: center;
+}
+
+/*----------------form----------------------*/
+#Rform{
+ display: block;
+ margin: auto;
+  background-color: white;
+  width: 90%;
+}
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid#86ccb1;
+  border-radius: 10px;  
+ }
+form legend{
+  
+  margin: 0 1rem;
+  padding: 0.5rem;  
+}
+form label.first input{
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: .70rem;
+  color: #555;  
+  width: 90%;  
+}
+form input.submitBtn {
+  border: none;
+  background-color: #420c08;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 4%;
+  width: 80%; 
+}
+form label.first input:required{
+  border-left: red solid 6px;
+}
+
+form label.first input:required:valid {
+  border-left: green solid 6px ;
+}
+
+/*-------service----------*/
+#background picture img{
+width: 90%;
+}
+/*-----------missionary-*/

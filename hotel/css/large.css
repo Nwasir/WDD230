@@ -1,0 +1,72 @@
+@media only screen and (min-width: 57em) {
+  nav button {
+    display: none;
+  }
+
+  header .head {
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+  }
+
+  .social {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 0;
+    order: 1;
+    display: flex;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav ul li a {
+    text-align: center;
+    border: none;
+  }
+  /*nav ul li ul li {
+    display: none;
+  }
+  nav ul li:hover ul li {
+    display: block;
+  }*/
+
+main#whole{
+  display: grid;
+  grid-template-columns: 1f 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+ width: 90%;
+}
+ div.box {
+  grid-column: 3/4;
+  grid-row: 1;
+}
+div.box1{
+  grid-row: 2/3;
+  grid-column: 3;
+}
+div.image1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+  /*--form------*/
+
+  #Rform fieldset {
+    background-color: white;
+    width: 30%;
+  }
+  form input.submitBtn {
+    width: 25%;
+    margin-left: 10px;
+  }
+   /*--------temple-------*/
+   .card section img {
+    width: 40%;
+  }
+  #background picture img{
+    width: 50%;
+    }
+}

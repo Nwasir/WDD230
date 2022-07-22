@@ -1,0 +1,36 @@
+header{
+    background-color: #0D070A;
+    color: white;
+    text-align: center;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 10%;
+    height: 3em;
+  }
+  
+  .primary {
+    background-color: #0D034E;
+  }
+  .secondary {
+    background-color: #070600;
+  }
+  .accent1 {
+    background-color: #F4F4ED;
+  }
+  .accent2{
+    background-color: #420C08;
+  }
+  .accent3{
+    background-color: #1D06B1;
+    color: white;
+  }

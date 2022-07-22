@@ -1,0 +1,38 @@
+{ "temple": [
+    {
+        "imageurl": "../json/images/aba_temple.jpg",
+        "name": "Aba Nigeria Temple",
+        "address": "72-80 Okpu-Umuobo Rd, Aba",
+        "phone": "(234)8039034810",
+        "details": "https://www.churchofjesuschrist.org/temples/details/aba-nigeria-temple?lang=eng"
+    },
+    {
+        "imageurl": "../json/images/ghana_temple.jpg",
+        "name": "Accra Ghana Temple",
+        "address": "57 Independent Ave, North Ridge, Accra",
+        "phone": "(233) 302650123",
+        "details": "https://www.churchofjesuschrist.org/temples/details/accra-ghana-temple?lang=eng"
+    },
+    {
+        "imageurl": "../json/images/bogota_colombia_temple.jpg",
+        "name": "Bogota Colombia Temple",
+        "address": "Carrera 46 N°127-45, Bogotá Distrito Capital, Colombia",
+        "phone": "(57) 1-625-8000",
+        "details": "https://www.churchofjesuschrist.org/temples/details/bogota-colombia-temple?lang=eng"
+    },
+    {
+        "imageurl":"../json/images/johannesburg_temple.jpg",
+        "name": "Johannesburg South Africa Temple",
+        "address": "7 Jubilee Rd, Parktown Johannesburg, 2193, South Africa",
+        "phone": "(27) 11-645-1540",
+        "details": "https://www.churchofjesuschrist.org/temples/details/johannesburg-south-africa-temple?lang=eng"
+    },
+    {
+        "imageurl": "../json/images/rome_italy_temple.jpg",
+        "name": "Rome Italy Temple",
+        "address": "Via di Settebagni 376, Rome RM, Italy",
+        "phone": "(39) 06-9480-5050",
+        "details": "https://www.churchofjesuschrist.org/temples/details/rome-italy-temple?lang=eng"
+    }
+]
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nnanna Uko Arua">
+    <meta name="description" content="Sky city hotel">
+    <title>Sky City Hotel</title>
+    <link rel="shortcut icon" href="favicon-32x32.png">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="head">
+
+            <div class="one">
+                <picture class="logo"><a href="index.html"><img src="favicon.ico" alt="logo" width="50" height="55"></a>
+                </picture>
+                <h2>Sky City <br> Hotel</h2>
+            </div>
+            <div class="social">
+                <a href="http://www.facebook.com"><img src="images/facebook.png" alt="facebook icon"></a>
+                <a href="http://www.linkedin.com"><img src="images/linkedin.png" alt="linkedin icon"></a>
+            </div>
+
+            <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+
+                <ul id="primaryNav">
+
+                    <li ><a href="index.html">Home</a></li>
+                    <li><a href="temple.html">Temple</a></li>
+                    <li class="active"><a href="reservation.html">Reservation</a></li>
+                    <li><a href="service.html">Service</a></li> 
+                    <li><a href="reception.html">Reception</a></li> 
+                    <li><a href="missionary.html">missionary</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="Rform">
+        <form action="welcome.html" method="get">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="first">First Name* <input type="text" name="fname" required></label>
+                <label class="first">Last Name* <input type="text" name="lname" required></label>
+                <label class="first">Email* <input type="email" name="email" placeholder="someone@gmail.com"  required></label>
+                <label class="first">Date* <input type="date" name="date" required></label>                      
+                <label class="first">Phone* <input type="tel" name="phone" placeholder="1234567890" required></label>
+                <label class="first">State* <input type="text" name="state" placeholder="state" required></label><br>
+                <label class="first">Room* <input type="text" name="state"  required></label><br>
+                <label class="first"> Comments <textarea id="comments" name="comments" required></textarea> </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Registrant Information</legend>
+                <label class="first">First Name* <input type="text" name="fname" required></label>
+                <label class="first">Last Name* <input type="text" name="lname" required></label>
+                <label class="first">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="first">Phone* <input type="tel" name="phone" placeholder="1234567890" required></label>
+                
+            </fieldset>
+           
+            <input type="submit" value="Book Your Room" class="submitBtn">
+
+        </form>
+    </main>
+
+    <footer>
+
+        <div class="one">
+            <picture class="logo"><a href="index.html"><img src="favicon.ico" alt="logo" width="50" height="55"></a>
+            </picture>
+            <h3>Sky City Hotel</h3>
+        </div>
+        <div>
+            4847 Montgomery Ln #300, Bethesda, MD 20814
+            <br>
+               <a href="https://goo.gl/maps/en9h6e8uxfmo9HqG6">📍 i Location Map</a> 
+        </div>
+        <hr>
+        <div>weather data source -- <a href="https://openweathermap.org/"><i>Open weather map</i></a></div>
+        <hr>
+        <div class="update">
+            <p>
+                &copy;<span id="year"></span> .:&brvbar;:. Nnanna Uko Arua
+                .:&brvbar;:. Aba, Abia state
+                Updated: <span id="datemod"></span></p>
+        </div>
+
+    </footer>
+
+    <script src="../JS/modify.js"></script>
+    <script src="js/scripts.js"></script>
+    
+</body>
+
+</html>

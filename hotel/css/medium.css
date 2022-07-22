@@ -1,0 +1,24 @@
+@media only screen and (min-width: 37rem) {
+  #Rform fieldset {
+    background-color: white;
+    width: 60%;
+  }
+  form input.submitBtn {
+    width: 50%;
+    margin-left: 10px;
+  }
+  main#whole {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  /*--------temple-------*/
+    .card section img {
+    width: 60%;
+  }
+  /*-------service---*/
+  #background picture img{
+    width: 70%;
+    }
+}
